@@ -1,32 +1,29 @@
-import 'package:glossary/repository/repository.dart';
 import 'package:glossary/dbhelp.dart';
 
-class WordService{
-  Repository _repository;
+class WordService {
   DBHelp _dbHelp;
 
-  WordService(){
+  WordService() {
 //    _repository = Repository();
-      _dbHelp = DBHelp();
+    _dbHelp = DBHelp();
   }
 
-  readWords() async{
+  readWords() async {
 //    return await _repository.readData('glossarydata');
-      return await _dbHelp.readData();
+    return await _dbHelp.readData();
   }
-  readCISWords() async{
-    return await _dbHelp.readCISData();
+
+  searchWords(word) async {
+//    return await _repository.readData('glossarydata');
+    return await _dbHelp.searchData(word);
   }
-  readPSTWords() async{
-    return await _dbHelp.readPSTData();
+
+  suggestWords(word) async {
+//    return await _repository.readData('glossarydata');
+    return await _dbHelp.suggestData(word);
   }
-  readNRWords() async{
-    return await _dbHelp.readNRData();
-  }
-  readSSPEWords() async{
-    return await _dbHelp.readSSPEData();
-  }
-  readFSTWords() async{
-    return await _dbHelp.readFSTData();
+
+  readDepartmentWords(String department) async {
+    return await _dbHelp.readDepartmentData(department);
   }
 }
