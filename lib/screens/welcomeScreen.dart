@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 
 import 'home.dart';
 
-
-
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -66,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Align(
               alignment: Alignment.bottomCenter,
               child: Text(
-                "Main Students' Union ",
+                "Faculty of Applied Sciences",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     decoration: TextDecoration.none,
@@ -77,7 +75,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Align(
               alignment: Alignment.bottomCenter,
               child: Text(
-                'Sabragamuwa University of \nSri Lanka',
+                'Sabaragamuwa University of \nSri Lanka',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     decoration: TextDecoration.none,

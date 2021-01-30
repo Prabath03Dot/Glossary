@@ -30,7 +30,7 @@ class LoadingScreen extends StatelessWidget {
             Align(
               alignment: Alignment.bottomCenter,
               child: Text(
-                "Main Students' Union ",
+                "Main Students' Union",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     decoration: TextDecoration.none,
@@ -41,7 +41,7 @@ class LoadingScreen extends StatelessWidget {
             Align(
               alignment: Alignment.bottomCenter,
               child: Text(
-                'Sabragamuwa University of \nSri Lanka',
+                'Sabaragamuwa University of \nSri Lanka',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     decoration: TextDecoration.none,
