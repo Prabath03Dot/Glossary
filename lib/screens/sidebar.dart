@@ -27,13 +27,9 @@ class _SideMenueState extends State<SideMenue> {
                 height: 100,
               ),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
-              Text('APPLIED SCIENCES', style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
-              SizedBox(
-                height: 20,
-              ),
-
+              
               // Faculty of Applied sciences
 
               ListTile(
